@@ -5,6 +5,7 @@
 ## Table of Contents
 
 - [Scripts](#scripts)
+    - [Get list of files](#get-list-of-files)
 - [Author](#author)
 - [Licence](#licence)
 

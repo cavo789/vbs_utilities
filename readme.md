@@ -10,7 +10,7 @@
     - [Folders](#folders)
         - [Get folder size](#get-folder-size)
     - [Outlook](#outlook)
-        - [Get mail's subject](#get-mail-s-subject)
+        - [Get mail's subject](#get-mails-subject)
         - [Send email](#send-email)
 - [Author](#author)
 - [Licence](#licence)
@@ -59,7 +59,7 @@ contacts, ...
 
 Simple pattern VBS script for demonstrating how to retrieve the default's mail signature, create a new email, add a file to it and send (or display) the mail
 
-[go to mails/get_subject](https://github.com/cavo789/vbs_utilities/tree/master/src/mails/send_mail)
+[go to mails/send_mail](https://github.com/cavo789/vbs_utilities/tree/master/src/mails/send_mail)
 
 ## Author
 

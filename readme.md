@@ -2,16 +2,21 @@
 
 > A list of small, stand-alone and straight-forward, VBS utilities
 
+I've written some of these scripts, modified somes others or just get a copy of an exising script (original author always mentionned and linked).
+
 ## Table of Contents
 
 - [Scripts](#scripts)
-    - [Files](#files)
-        - [Get list of files](#get-list-of-files)
-    - [Folders](#folders)
-        - [Get folder size](#get-folder-size)
-    - [Outlook](#outlook)
-        - [Get mail's subject](#get-mails-subject)
-        - [Send email](#send-email)
+	- [Files](#files)
+		- [Get list of files](#get-list-of-files)
+	- [Folders](#folders)
+		- [Get folder size](#get-folder-size)
+		- [Select folder](#select-folder)
+	- [GitHub](#github)
+		- [auto_update](#auto_update)
+	- [Outlook](#outlook)
+		- [Get mail's subject](#get-mails-subject)
+		- [Send email](#send-email)
 - [Author](#author)
 - [Licence](#licence)
 
@@ -41,6 +46,22 @@ Scan a folder recursively and display the size of each folders (first level)
 
 [go to folders/get_folder_size](https://github.com/cavo789/vbs_utilities/tree/master/src/folders/get_folder_size)
 
+#### Select folder
+
+Display a select folder dialog box and then return then selected foldername
+
+[go to folders/select_folder](https://github.com/cavo789/vbs_utilities/tree/master/src/folders/select_folder)
+
+### GitHub 
+
+#### Auto_update 
+
+Sample script to demonstrate how it's possible to add an auto-update feature in a VBS script.
+
+The script will check for newer version on GitHub and if there is one, the script will overwrite himself with that newer version.
+
+[go to github/auto_update](https://github.com/cavo789/vbs_utilities/tree/master/src/github/auto_update)
+
 ### Outlook 
 
 #### Get mail's subject
@@ -54,6 +75,12 @@ Adjust the constant for GetDefaultFolder to retrieve emails,
 contacts, ...
 
 [go to mails/get_subject](https://github.com/cavo789/vbs_utilities/tree/master/src/mails/get_subject)
+
+#### Retrieve old messages
+
+Retrieve messages over 14 days old from Outlook's `Sent Items` folder
+
+[go to mails/retrieve_old](https://github.com/cavo789/vbs_utilities/tree/master/src/mails/retrieve_old)
 
 #### Send email
 

@@ -8,7 +8,7 @@ I've written some of these scripts, modified somes others or just get a copy of 
 
 - [Scripts](#scripts)
 	- [Files](#files)
-		- [Get list of files](#get-list-of-files)
+		- [Find](#find)
 	- [Folders](#folders)
 		- [Get folder size](#get-folder-size)
 		- [Get list of files](#get-list-of-files)
@@ -25,7 +25,7 @@ I've written some of these scripts, modified somes others or just get a copy of 
 
 ### Files
 
-#### Get list of files
+#### Find
 
 Take advantage of Windows Desktop Search and very fast, get the list
 of MS Access applications present on the computer (local drives so
@@ -37,7 +37,7 @@ of files like .docx, .png, .xlsx, ...
 
 This script is really, really fast but only works for local drives.
 
-[go to files/list_of_files](https://github.com/cavo789/vbs_utilities/tree/master/src/files/list_of_files)
+[go to files/find](https://github.com/cavo789/vbs_utilities/tree/master/src/files/find)
 
 ### Folders 
 

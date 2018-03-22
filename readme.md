@@ -11,6 +11,7 @@ I've written some of these scripts, modified somes others or just get a copy of 
 		- [Get list of files](#get-list-of-files)
 	- [Folders](#folders)
 		- [Get folder size](#get-folder-size)
+		- [Get list of files](#get-list-of-files)
 		- [Select folder](#select-folder)
 	- [GitHub](#github)
 		- [auto_update](#auto_update)
@@ -45,6 +46,12 @@ This script is really, really fast but only works for local drives.
 Scan a folder recursively and display the size of each folders (first level)
 
 [go to folders/get_folder_size](https://github.com/cavo789/vbs_utilities/tree/master/src/folders/get_folder_size)
+
+#### Get list of files
+
+Get the list of files of the current folder + subfolders and generate a .csv file with files informations like path, size, extensions, author, ... making then easy to work with that list in Excel
+
+[go to folders/get_list_of_files](https://github.com/cavo789/vbs_utilities/tree/master/src/folders/get_list_of_files)
 
 #### Select folder
 

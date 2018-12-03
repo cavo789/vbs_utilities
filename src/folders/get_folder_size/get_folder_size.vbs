@@ -30,7 +30,7 @@ If Wscript.Arguments.count <> 1 Then
 	wScript.Echo ""
 	wScript.Echo "Given a root directory,dirscan will scan"
 	wScript.Echo "all directories and output the size of"
-	wScript.Echo "each subdirecotry."
+	wScript.Echo "each subdirectory."
 	
 	' And quit
 	wScript.Quit 0

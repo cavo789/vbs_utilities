@@ -2,26 +2,42 @@
 
 > A list of small, stand-alone and straight-forward, VBS utilities
 
-I've written some of these scripts, modified somes others or just get a copy of an exising script (original author always mentionned and linked).
+I've written some of these scripts, modified some others or just get a copy of an existing script (original author always mentioned and linked).
 
 ## Table of Contents
 
-- [Scripts](#scripts)
-	- [Files](#files)
-		- [Find](#find)
-	- [Folders](#folders)
-		- [Get folder size](#get-folder-size)
-		- [Get list of files](#get-list-of-files)
-		- [Select folder](#select-folder)
-	- [GitHub](#github)
-		- [auto_update](#auto_update)
-	- [Outlook](#outlook)
-		- [Get mail's subject](#get-mails-subject)
-		- [Send email](#send-email)
-- [Author](#author)
-- [Licence](#licence)
+* [Database](#database)
+	* [Test connection](#test-connection)
+* [Files](#files)
+	* [Find](#find)
+* [Folders](#folders)
+	* [Get folder size](#get-folder-size)
+	* [Get list of files](#get-list-of-files)
+	* [Select folder](#select-folder)
+* [GitHub](#github)
+	* [Auto_update](#autoupdate)
+* [Outlook](#outlook)
+	* [Get mail's subject](#get-mails-subject)
+	* [Retrieve old messages](#retrieve-old-messages)
+	* [Send email](#send-email)
+* [Author](#author)
+* [Licence](#licence)
 
 ## Scripts
+
+### Database
+
+#### Test connection
+
+> Try to establish a connection to a SQL database
+
+This script will allow you to quickly check if access to your SQL Server database is possible.
+
+The objective is to establish a connection and check if it works before starting, e. g., to investigate your program code or the permissions required for the user to use your tables, views, stored procedures,...
+
+This script will only do this, i.e. try to connect to the database, which will eliminate the possibility of a login problem.
+
+[go to database/test_connection](https://github.com/cavo789/vbs_utilities/tree/master/src/database/test_connection)
 
 ### Files
 
@@ -32,14 +48,14 @@ of MS Access applications present on the computer (local drives so
 also return files present, f.i. on a D: drive if you run the script
 from the C: drive; don't scan network drives).
 
-Just adjust the searched extension for searching for any other type 
+Just adjust the searched extension for searching for any other type
 of files like .docx, .png, .xlsx, ...
 
 This script is really, really fast but only works for local drives.
 
 [go to files/find](https://github.com/cavo789/vbs_utilities/tree/master/src/files/find)
 
-### Folders 
+### Folders
 
 #### Get folder size
 
@@ -59,9 +75,9 @@ Display a select folder dialog box and then return then selected foldername
 
 [go to folders/select_folder](https://github.com/cavo789/vbs_utilities/tree/master/src/folders/select_folder)
 
-### GitHub 
+### GitHub
 
-#### Auto_update 
+#### Auto_update
 
 Sample script to demonstrate how it's possible to add an auto-update feature in a VBS script.
 
@@ -69,7 +85,7 @@ The script will check for newer version on GitHub and if there is one, the scrip
 
 [go to github/auto_update](https://github.com/cavo789/vbs_utilities/tree/master/src/github/auto_update)
 
-### Outlook 
+### Outlook
 
 #### Get mail's subject
 

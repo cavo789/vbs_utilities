@@ -1,6 +1,6 @@
-![Banner](images/banner.jpg)
-
 # VBS_Utilities
+
+![Banner](./banner.svg)
 
 > A list of small, stand-alone and straight-forward, VBS utilities
 
